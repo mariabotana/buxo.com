@@ -1,0 +1,24 @@
+:root {
+    /* colors */
+
+    /* neutrals */
+    --neutral-dark: #363434;
+    --neutral: #555454;
+    --neutral-medium: #8C8B8B;
+    --neutral-light: #CCCACA;
+    --neutral-xlight: #EBEAEA;
+
+    /* brand */
+    --brand-dark: #3F694D;
+    --brand: #6DBB87;
+    --brand-medium: #8EEFAF;
+    --brand-light: #A6FFC4;
+    --brand-xlight: #D7FFE4;
+
+    /* brand alternatives */
+    --brand-alt-dark: #89544D;
+    --brand-alt: #BB7369;
+    --brand-alt-medium: #DE8A7F;
+    --brand-alt-light: #FF9F92;
+    --brand-alt-xlight: #FFCAC2;
+}

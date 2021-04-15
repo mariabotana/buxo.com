@@ -1,0 +1,231 @@
+html,body,{
+  font-family:Roboto;
+  height:100%;
+  width:100%;
+  margin: 0%;
+}
+
+header{
+  text-align: center;
+  display: inline-block;
+  position:relative;
+  width: 100%;
+}
+
+#barramenu img{
+	position: absolute;
+  width: 166px;
+	height: 31px;
+	padding: 2.5em;
+}
+
+.menu{
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 40px;
+  padding: 1.5em;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li a {
+  color: #67BB89;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.menu li a:hover {
+  color: #BB7369;
+}
+
+#cabecera{
+   background: url("../src/img/productos/colgantedorado.jpg") no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   width: 100%;
+   height: 694px;
+   margin-top: 5%;
+}
+
+.text{
+   width: 714px;
+   height: 332px;
+   left: 60px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 109px;
+   line-height: 110px;
+   display: flex;
+   align-items: flex-start;
+   color: #FFFFFF;
+   margin-left: 3%;
+   padding-top: 3%;
+   }
+
+.button1 {
+  border: round;
+  color: white;
+  padding: 16px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.conocenos {
+  background: rgba(255, 0, 0, 0); 
+  color: white;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 69px;
+}
+
+.button:hover {
+  background-color: #6DBB87;
+  border-color: #6DBB87;
+  color: white;
+}
+
+#menucategorias{
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+  position: relative;
+}
+
+.categoria{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 40px;
+	display: inline-block;
+}
+
+.categoria ul {
+  list-style: none;
+}
+
+.categoria li a {
+  color: #67BB89;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.categoria li a:hover {
+  color: #BB7369;
+}
+
+.three-columns {
+width: 25%;
+display: inline-block;
+margin-top: 3%;
+margin-left: 5%
+}
+
+.three-columns p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
+  color: black;
+}
+
+.button2 {
+  border: round;
+  color: #6DBB87;
+  padding: 16px 36px;
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+}
+
+.masproductos {
+  background: #6DBB87;
+  color: white;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 69px;
+}
+
+.button2:hover {
+  background-color: #BB7369;
+  border-color: #BB7369;
+  color: white;
+}
+
+footer{
+  margin-top: 20%;
+}
+
+.pie img{
+  width: 78px;
+  height: 16px;
+}
+
+.datos{
+  display:flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.dirección h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #2E2D2C;
+}
+
+.email a, h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  color: #2E2D2C;
+}
+
+.rrss img{
+  width: 32.17px;
+  height: 32.17px;
+}
+
+ @media screen and (min-width: 480px) {
+    nav ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+
+
+
+

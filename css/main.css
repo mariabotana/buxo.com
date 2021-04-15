@@ -1,0 +1,19 @@
+/* Basic */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import 'normalize.css';
+
+/* Variables */
+@import 'variables.css';
+
+/* Layout */
+@import 'layout/layout.css';
+
+/* Modulos */
+@import 'modules/header.css';
+@import 'modules/banner.css';
+@import 'modules/footer.css';
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
