@@ -1,5 +1,5 @@
 .banner-info{
-    background: url ("../../src/img/productos/colgantedorado.jpg") no-repeat fixed center;
+    background: url ("../../src/img/productos/colgantedorado.jpg");
     background-size: cover;
     width: 100%;
     height: 694px;
