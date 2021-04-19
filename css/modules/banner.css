@@ -1,8 +1,24 @@
 .banner-info{
-    background: url ("../../src/img/productos/colgantedorado.jpg");
+    background-image: url("../../src/img/productos/colgantedorado.jpg");
     background-size: cover;
-    width: 90%;
+    width: 100%;
     height: 694px;
     margin-top: 5%;
 
+}
+
+.banner-info p{
+    width: 714px;
+    height: 332px;
+    left: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 109px;
+    line-height: 110px;
+    display: flex;
+    align-items: flex-start;
+    color: #FFFFFF;
+    margin-left: 3%;
+    padding-top: 3%;
 }
