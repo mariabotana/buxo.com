@@ -6,7 +6,6 @@
     background-image: url('../../src/img/productos/colgantedorado.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
     /* Añade un efecto a la imagen */
     /* background-blend-mode: multiply;
     background-color: var(--brand); */
@@ -45,4 +44,3 @@
 .banner-info-link:hover {
     background-color: var(--brand-alt);
 }*/
-
