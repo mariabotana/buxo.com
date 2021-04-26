@@ -50,67 +50,9 @@
     color: var(--neutral-medium);
 }
 
+
+
 /* DETALLE */
-
-
-@media (min-width: 640px) {
-    .product-detail {
-        display: flex;
-    }
-}
-
-.product-page a {
-    color: var(--neutrl-dark);
-}
-
-.product-page2 img{
-    transition: transform .1s;
-}
-
-.product-page2 img:hover{
-    transform: scale(1.5);
-}
-
-.product-page2{
-    display: flex; 
-}
-
-.description h2{
-    color: var(--neutral);
-}
-
-.description h5{
-    color: var(--neutral-medium);
-}
-
-@media (min-width: 1006px) {
-  .info {
-    margin-left: 3em;;
-  }
-}
-
-.precio h1{
-    color: var(--neutral);
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-
-.precio h5{
-    color: var(--neutral-medium);
-    margin-top: 0;
-}
-
-.color{
-    margin-top: 3em;
-}
-
-@media (max-width: 1006px) {
-  .color {
-    margin-top: 2em;;
-  }
-}
-
 .back {
     margin: 3rem auto 2rem;
     display: block;
@@ -123,12 +65,76 @@
     margin-right: .25em;
     content: "←";
 }
+.product-detail {
+    line-height: 1.4rem;
+    padding-bottom: 6rem;
+}
+.product-detail ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.product-detail ul li::before{
+    content: "▸";
+    color: var(--brand);
+    margin-right: .5rem;
+}
+
+@media (min-width: 720px) {
+    .product-detail {
+        display: flex;
+    }
+    .product-detail-info {
+        padding-right: 3rem;
+    }
+}
+.product-detail-options {
+    min-width: 250px;
+}
+
+.product-page a {
+    color: var(--neutrl-dark);
+}
+
+.product-detail-info-img {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 2rem;
+}
+.product-detail-info-img > * {
+    flex:20% 0 0;
+}
+.product-detail-info-img a:first-child {
+    flex: 1 1 auto;
+    margin-bottom: .25rem;
+}
+.product-detail-info-img a:hover {
+    opacity: .5;
+}
+.product-detail-info-img img {
+    vertical-align: middle;
+    width: 100%;
+}
 
 
+/* colors svg */
 
 
-
-
+.option-1 circle {
+    fill: #a89600;
+}
+.option-2 circle {
+    fill: #7c879f;
+}
+.option-3 circle {
+    fill: #228e48;
+}
+.option-4 circle {
+    fill: #3c55c4;
+}
+.option-5 circle {
+    fill: #9c4b97;
+}
 
 
 
