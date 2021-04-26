@@ -1,0 +1,27 @@
+:root {
+    /* colors */
+
+    /* neutrals */
+    --neutral-dark: #303030;
+    --neutral: #555454;
+    --neutral-medium: #878484;
+    --neutral-light: #c7c7c7;
+    --neutral-xlight: #ededed;
+
+    /* brand */
+    --brand-dark: #3F694D;
+    --brand: #6DBB87;
+    --brand-medium: #6DBB87;
+    --brand-light: #A6FFC4;
+    --brand-xlight: #D7FFE4;
+
+    /* brand alternatives */
+    --brand-alt-dark: #89544D;
+    --brand-alt: #BB7369;
+    --brand-alt-medium: #BB7369;
+    --brand-alt-light: #c7c7c7;
+    --brand-alt-xlight: #ededed;
+
+    /* size of navigation menu */
+    --width-menu: 112px;
+}

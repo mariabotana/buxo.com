@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+}
+
+
+.logo {
+    margin: 0;
+}
+.logo svg {
+}
+.logo span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    clip: rect(0, 0, 0,0);
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu a {
+    color: var(--brand);
+}
+.menu a:hover {
+    color: var(--neutral-dark);
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.menu ul li:not(:last-child) {
+    margin-right: 1rem;
+}
+
+@media (min-width: 640px) {
+    h1 {
+        flex-grow: 1;
+        text-align: center;
+        padding-left: var(--width-menu);
+    }
+}

@@ -1,0 +1,149 @@
+.product-categories {
+    padding: 3rem 1rem 1rem 1rem;
+    max-width: 740px;
+    margin: 0 auto;
+}
+.product-categories a {
+    color: var(--brand);
+}
+.product-categories ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    line-height: 1.4rem;
+
+}
+
+.product-categories li:not(:last-child)::after {
+    content: "|";
+    margin: 0 .5rem;
+    color: var(--neutral-light);
+}
+.product-list {
+    max-width: 1400px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.product-item a {
+    color: var(--neutrl-dark);
+}
+.product-item a:hover {
+    opacity: .7;
+}
+.product-item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-item-info h4,
+.product-item-info p {
+    margin:.5rem 0 0 0;
+}
+.product-item-info h4 {
+    color: var(--neutral-dark);
+}
+.product-item-info p {
+    color: var(--neutral-medium);
+}
+
+/*nuevo*/
+
+.product-page-list {
+    max-width: 1006px;
+    margin: 1rem auto;
+    padding: 0 1rem;
+    }
+
+@media (min-width: 640px) {
+    .product-detail {
+        display: flex;
+    }
+}
+
+.product-page a {
+    color: var(--neutrl-dark);
+}
+
+.product-page2 img{
+    transition: transform .1s;
+}
+
+.product-page2 img:hover{
+    transform: scale(1.5);
+}
+
+.product-page2{
+    display: flex; 
+}
+
+.description h2{
+    color: var(--neutral);
+}
+
+.description h5{
+    color: var(--neutral-medium);
+}
+
+@media (min-width: 1006px) {
+  .info {
+    margin-left: 3em;;
+  }
+}
+
+.precio h1{
+    color: var(--neutral);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.precio h5{
+    color: var(--neutral-medium);
+    margin-top: 0;
+}
+
+.color{
+    margin-top: 3em;
+}
+
+@media (max-width: 1006px) {
+  .color {
+    margin-top: 2em;;
+  }
+}
+
+.back {
+    max-width: 1006px;
+    padding: 0 1rem;
+    margin: 3rem auto 2rem;
+    display: block;
+    color: var(--brand);
+}
+.back:hover {
+    color: var(--neutral-dark);
+}
+.back::before {
+    margin-right: .25em;
+    content: "←";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
