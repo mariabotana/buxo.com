@@ -8,6 +8,20 @@
     width:100%;
 }
 
+
+.wrapper {
+    max-width:960px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media (min-width: 480px) {
+    .wrapper {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
 .ly-grid-product {
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(455px,1fr));
@@ -18,6 +32,8 @@
     width:100%;
 }
 
+
+
 .ly-grid-product2 {
 	display: grid;
 	grid-template-columns: repeat(auto-fill,minmax(255px,1fr));
@@ -27,7 +43,7 @@
 .ly-grid-product2 img{
     width:100%;
 }
-
+/*
 .grid-whois{
     display: grid;
     grid-gap: 1em;
@@ -35,6 +51,4 @@
     margin: 3em 5em 2em 5em;
 }
 
-.grid-whois img{
-    width: 90%;
-}
+*/

@@ -9,11 +9,12 @@
 /* Layout */
 @import 'layout/layout.css';
 
+/* Components */
+@import 'components/product.css';
+@import 'components/whois.css';
+
 /* Modulos */
 @import 'modules/header.css';
 @import 'modules/banner.css';
 @import 'modules/footer.css';
-
-/* Components */
-@import 'components/product.css';
-@import 'components/whois.css';
+@import 'modules/utils.css';
