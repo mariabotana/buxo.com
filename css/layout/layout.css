@@ -32,8 +32,6 @@
     width:100%;
 }
 
-
-
 .ly-grid-product2 {
 	display: grid;
 	grid-template-columns: repeat(auto-fill,minmax(255px,1fr));

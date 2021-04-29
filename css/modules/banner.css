@@ -15,6 +15,9 @@
     background-image: url('../../src/img/conocebuxo/manos.jpg');
 
 }
+.banner-entrada1 {
+    background-image: url('../../src/img/productos/farol.jpg');
+}
 
 .banner-info {
     color: white;
@@ -22,6 +25,13 @@
 
 .banner-info-title {
     margin: 0 0 1rem 0;
+    font-size: clamp(1rem, -0.875rem + 8vw, 4.5rem);
+    line-height: clamp(1.3rem, -0.875rem + 8vw, 4.3rem);
+    max-width: 500px;
+    text-shadow: 1px 1px 10px var(--neutral-dark);
+}
+.banner-info-title2 {
+    margin: 0 0 15rem 56rem; 
     font-size: clamp(1rem, -0.875rem + 8vw, 4.5rem);
     line-height: clamp(1.3rem, -0.875rem + 8vw, 4.3rem);
     max-width: 500px;

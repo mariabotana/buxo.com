@@ -103,6 +103,7 @@
 }
 .product-detail-info-img > * {
     flex:20% 0 0;
+    margin-left: .3em;
 }
 .product-detail-info-img a:first-child {
     flex: 1 1 auto;
@@ -115,7 +116,12 @@
     vertical-align: middle;
     width: 100%;
 }
-
+.product-detail-info-description h2,h3{
+    color: var(--neutral-dark);
+}
+.product-detail-info-description{
+    color: var(--neutral);
+}
 
 /* colors svg */
 
