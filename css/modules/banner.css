@@ -31,11 +31,23 @@
     text-shadow: 1px 1px 10px var(--neutral-dark);
 }
 .banner-info-title2 {
-    margin: 0 0 15rem 56rem; 
+    margin: 0 0 15rem 56rem;
     font-size: clamp(1rem, -0.875rem + 8vw, 4.5rem);
     line-height: clamp(1.3rem, -0.875rem + 8vw, 4.3rem);
     max-width: 500px;
     text-shadow: 1px 1px 10px var(--neutral-dark);
+}
+.txt-right {
+    justify-content: flex-end;
+}
+.txt-center {
+    justify-content: center;
+}
+.txt-right .banner-info-title {
+    margin-right: 2rem;
+}
+.txt-center .banner-info-title {
+    text-align: center;
 }
 
 .banner-info-link {
