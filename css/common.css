@@ -18,3 +18,10 @@ a:hover {
 *:after {
 	box-sizing: inherit;
 }
+
+.is-active a {
+    background-color: var(--brand);
+    color: white !important;
+    padding:.25em 1em;
+    border-radius: 7px;
+}
