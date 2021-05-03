@@ -1,0 +1,27 @@
+.product-list {
+    max-width: 1400px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+}
+
+.product-item a {
+    color: var(--neutrl-dark);
+}
+.product-item a:hover {
+    opacity: .7;
+}
+.product-item-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-item-info h4,
+.product-item-info p {
+    margin:.5rem 0 0 0;
+}
+.product-item-info h4 {
+    color: var(--neutral-dark);
+}
+.product-item-info p {
+    color: var(--neutral-medium);
+}

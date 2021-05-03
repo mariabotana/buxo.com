@@ -1,0 +1,25 @@
+.product-categories {
+    padding: 3rem 1rem 1rem 1rem;
+    max-width: 740px;
+    margin: 0 auto;
+}
+.product-categories a {
+    color: var(--brand);
+}
+.product-categories a:hover{
+    color: var(--brand-alt-dark);
+}
+.product-categories ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    line-height: 1.4rem;
+}
+.product-categories li:not(:last-child)::after {
+    content: "|";
+    margin: 0 .5rem;
+    color: var(--neutral-light);
+}

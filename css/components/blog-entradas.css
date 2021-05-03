@@ -1,0 +1,16 @@
+.entradas {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.entradas p{
+    font-size: 1.15rem;
+    line-height: 1.6rem;
+}
+@media (min-width: 720px) {
+    .entradas {
+        display: flex;
+    }
+    .entradas-description {
+        padding-left: 3rem;
+    }
+}

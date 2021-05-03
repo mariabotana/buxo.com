@@ -10,10 +10,15 @@
 @import 'layout/layout.css';
 
 /* Components */
-@import 'components/product.css';
+@import 'components/product-detail.css';
+@import 'components/product-list.css';
 @import 'components/whois.css';
+@import 'components/blog-detail.css';
+@import 'components/blog-entradas.css';
+@import 'components/product-categories.css';
 
 /* Modulos */
+
 @import 'modules/header.css';
 @import 'modules/banner.css';
 @import 'modules/footer.css';
