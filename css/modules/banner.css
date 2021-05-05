@@ -10,11 +10,22 @@
     /* background-blend-mode: multiply;
     background-color: var(--brand); */
 }
-
+@media (min-width: 720px) {
+    .banner {
+        padding: 1rem 3rem;
+    }
+}
+@media (min-width: 920px) {
+    .banner {
+        padding: 1rem 5rem;
+    }
+}
+/* Imagen por defecto */
 .banner-alt {
     background-image: url('../../src/img/conocebuxo/manos.jpg');
-
 }
+
+/* imagen banner primera entrada del blog */
 .banner-entrada1 {
     background-image: url('../../src/img/productos/farol.jpg');
 }
@@ -30,21 +41,14 @@
     max-width: 500px;
     text-shadow: 1px 1px 10px var(--neutral-dark);
 }
-.banner-info-title2 {
-    margin: 0 0 15rem 56rem;
-    font-size: clamp(1rem, -0.875rem + 8vw, 4.5rem);
-    line-height: clamp(1.3rem, -0.875rem + 8vw, 4.3rem);
-    max-width: 500px;
-    text-shadow: 1px 1px 10px var(--neutral-dark);
-}
+
+/* Estados para posiionar el texto centrado o a la derecha */
 .txt-right {
     justify-content: flex-end;
+    text-align: right;
 }
 .txt-center {
     justify-content: center;
-}
-.txt-right .banner-info-title {
-    margin-right: 2rem;
 }
 .txt-center .banner-info-title {
     text-align: center;
@@ -62,12 +66,4 @@
 .banner-info-link:hover {
     background-color: var(--brand);
     border: 1px solid var(--brand);
-}
-
-    /*background-color: var(--brand-alt);
-    transition: background-color .5s;
-}
-
-.banner-info-link:hover {
-    background-color: var(--brand-alt);
-}*/
+}¡

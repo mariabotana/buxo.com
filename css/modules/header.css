@@ -4,13 +4,20 @@
     align-items: center;
     padding: 1.5rem 1rem;
 }
-
-
+@media (min-width: 720px) {
+    .header {
+        padding: 1.5rem 3rem;
+    }
+}
+@media (min-width: 920px) {
+    .header {
+        padding: 1.5rem 5rem;
+    }
+}
 .logo {
     margin: 0;
 }
-.logo svg {
-}
+
 .logo span {
     position: absolute;
     width: 1px;

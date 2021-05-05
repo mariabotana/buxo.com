@@ -5,6 +5,16 @@
     font-size: .875rem;
     line-height: 1.3rem;
 }
+@media (min-width: 720px) {
+    .footer {
+        padding: 2rem 3rem 12rem 3rem;
+    }
+}
+@media (min-width: 920px) {
+    .footer {
+        padding: 2rem 5rem 12rem 5rem;
+    }
+}
 .footer a {
     color: var(--brand);
 }
