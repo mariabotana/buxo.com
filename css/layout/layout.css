@@ -15,6 +15,12 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.wrapper-l {
+    max-width:1400px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 @media (min-width: 480px) {
     .wrapper {
         padding-left: 2rem;
