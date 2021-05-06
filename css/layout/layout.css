@@ -15,6 +15,12 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.wrapper-m {
+    max-width:720px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 .wrapper-l {
     max-width:1400px;
     margin: 0 auto;
