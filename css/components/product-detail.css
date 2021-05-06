@@ -48,16 +48,21 @@
     flex:20% 0 0;
     margin-left: .3em;
 }
+.product-detail-info-img a {
+    overflow: hidden;
+}
 .product-detail-info-img a:first-child {
     flex: 1 1 auto;
     margin-bottom: .25rem;
 }
-.product-detail-info-img a:hover {
-    opacity: .5;
-}
 .product-detail-info-img img {
     vertical-align: middle;
     width: 100%;
+    transform: scale(1);
+    transition: ease-in-out .250s all;
+}
+.product-detail-info-img a:hover img{
+    transform: scale(1.2);
 }
 /* Contendor con la información del producto */
 .product-detail-info-description h2,h3{

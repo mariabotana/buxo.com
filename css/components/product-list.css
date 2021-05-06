@@ -10,7 +10,7 @@
     color: var(--neutrl-dark);
 }
 .product-item a:hover {
-    opacity: .7;
+    opacity: .8;
 }
 
 /* Información del elemento */
