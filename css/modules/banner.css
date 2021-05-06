@@ -1,6 +1,6 @@
 .banner {
     display:  flex;
-    min-height: 80vh;
+    min-height: 60vh;
     padding: 1rem;
     align-items: center;
     background-image: url('../../src/img/productos/colgantedorado.jpg');
