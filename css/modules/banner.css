@@ -3,7 +3,7 @@
     min-height: 60vh;
     padding: 1rem;
     align-items: center;
-    background-image: url('../../src/img/productos/colgantedorado.jpg');
+    background-image: url('/buxo.com//buxo.com/src/img/productos/colgantedorado.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     /* Añade un efecto a la imagen */
@@ -22,12 +22,12 @@
 }
 /* Imagen por defecto */
 .banner-alt {
-    background-image: url('../../src/img/conocebuxo/manos.jpg');
+    background-image: url('/buxo.com//buxo.com/src/img/conocebuxo/manos.jpg');
 }
 
 /* imagen banner primera entrada del blog */
 .banner-entrada1 {
-    background-image: url('../../src/img/productos/farol.jpg');
+    background-image: url('/buxo.com//buxo.com/src/img/productos/farol.jpg');
 }
 
 .banner-info {
