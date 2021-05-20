@@ -48,6 +48,9 @@ address {
 .social li:not(:last-child)  {
     margin-right: 1.5rem;
 }
+.social a:hover {
+    opacity: .5;
+}
 .social span {
     position: absolute;
     width: 1px;
