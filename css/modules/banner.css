@@ -22,12 +22,12 @@
 }
 /* Imagen por defecto */
 .banner-alt {
-    background-image: url('/buxo.com//buxo.com/src/img/conocebuxo/manos.jpg');
+    background-image: url('/buxo.com/src/img/conocebuxo/manos.jpg');
 }
 
 /* imagen banner primera entrada del blog */
 .banner-entrada1 {
-    background-image: url('/buxo.com//buxo.com/src/img/productos/farol.jpg');
+    background-image: url('/buxo.com/src/img/productos/farol.jpg');
 }
 
 .banner-info {
