@@ -1,0 +1,42 @@
+.error {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    background-color: #daffec;
+    color: var(--brand);
+}
+.error >div {
+    text-align: right;
+    padding: 1rem;
+}
+.error img {
+    width: auto;
+    max-width: 100%;
+    margin-top: 2rem;
+}
+@media (min-width: 720px) {
+    .error >div {
+        display: flex;
+        justify-content: center;
+    }
+    .error img {
+        transform: translateX(-8rem);
+    }
+}
+.error  h2{
+    margin: 0;
+    font-weight: lighter;
+    font-size: 6rem;
+    color: #b0e5ca;
+}
+.error p{
+    margin: 0;
+    color: #b0e5ca;
+}
+
+.error .txt-l{
+    margin-top: 3rem;
+    color: var(--brand);
+}
