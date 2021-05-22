@@ -101,7 +101,6 @@
 /* tags prodcutos detalle */
 .product-detail-options-tags {
     margin-bottom: 1.5em;
-    margin-top: 1em;
 }
 .product-detail-options-tags a {
     display: inline-block;
@@ -110,6 +109,7 @@
     padding:.25em 1em;
     border-radius: 15px;
     font-size: .875rem;
+    margin-top: 0.25em;
 }
 
 /* Calses para aplicar colores en el svg */
