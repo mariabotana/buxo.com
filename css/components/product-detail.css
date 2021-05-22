@@ -101,6 +101,7 @@
 /* tags prodcutos detalle */
 .product-detail-options-tags {
     margin-bottom: 1.5em;
+    margin-top: .25rem;
 }
 .product-detail-options-tags a {
     display: inline-block;
